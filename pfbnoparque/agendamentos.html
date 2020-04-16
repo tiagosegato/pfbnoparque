@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>PFB NO PARQUE</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Tiago Segato" />
+		<meta name="keywords" content="PFB, ProgressiveFitBall, parque, aulas, ar livre, atividades físicas" />
+		<meta name="description" content="Aulas de ProgressiveFitBall no Parque da Cidade aos finais de semana" />
+	</head>
+	<body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+		<img src="img/banner.png" alt="banner contendo a logo do pfb no parque acompanhando de uma paisagem" width="100%" height="350" />
+		<center>
+			<font face="Avenir" size="4">
+				<a href="index.html"> HOME </a>
+				<a href="index.html#pag-beneficios"> BENEFÍCIOS </a>
+				<a href="index.html#pag-modalidades"> MODALIDADES </a>
+				<a href="index.html#pag-treinos"> TREINOS </a>
+				<a href="#"> AGENDAMENTOS </a>
+			</font>
+		</center>
+		<hr/>
+		<font face="Kaushan Script" size="5" color="#3F51B5">
+			<h1 align="center">Agendamentos</h1>
+		</font>
+		<font face="Avenir" size="4" color="#757575">
+			<p align="justify">Agende uma aula experimental <b>Grátis!</b></p>
+		
+		<form name="" method="" action="">
+			<label for="nome">Nome:</label><br/>
+			<input id="nome" type="text" name="nome" size="80" placeholder="Digite seu nome completo" required autofocus /><br/>
+
+			<label for="email">E-mail:</label><br/>
+			<input id="email" type="email" name="email" size="80" placeholder="nomeusuario@email.com" /><br/>
+
+			<label for="senha">Senha:</label><br/>
+			<input id="senha" type="password" name="senha" size="80" placeholder="somente números" /><br/>
+
+			<label for="celular">Celular:</label><br/>
+			<input id="celular" type="tel" name="celular" size="80" placeholder="(99)99999-9999"/ pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" ><br/ ><br/>
+
+			<label for="data">Data:</label>
+			<input id="data" type="date" name="data" />
+
+			<label for="hora">Hora:</label>
+			<input id="hora" type="time" name="hora" />
+
+			<label for="aulas">Aulas:</label>
+			<input id="aulas" type="number" name="aulas" min="1" max="10" step="1" /> <br/>
+
+			<label for="nivel">Nível:</label>
+			<select id="nivel" name="nivel">
+				<option value="">Selecione</option>
+				<option value="iniciante">Iniciante</option>
+				<option value="basico">Básico</option>
+				<option value="intermediario">Intermediário</option>
+				<option value="avancado">Avançado</option>
+			</select><br/>
+
+			<fieldset>
+				<legend>Gênero:</legend>
+				<input id="masc" type="radio" name="genero" value="masc" /> <label for="masc">Masculino</label><br/>
+				<input id="fem" type="radio" name="genero" value="fem" /> <label for="fem">Feminino</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Atividades:</legend>
+				<input id="musc" type="checkbox" name="atividade" value="musculacao" /> <label for="musc">Musculação</label><br/>
+				<input id="pila" type="checkbox" name="atividade" value="pilates" /> <label for="pila">Pilates</label><br/>
+				<input id="yoga" type="checkbox" name="atividade" value="yoga" /> <label for="yoga">Yoga</label><br/>
+				<input id="corr" type="checkbox" name="atividade" value="corrida" /> <label for="corr">Corrida</label><br/>
+			</fieldset>
+
+			<label for="msg">Mensagem:</label><br/>
+			<textarea id="msg" cols="80" rows="4">
+			</textarea>
+
+
+			<p><input type="submit" name="bnt-agendar" value="AGENDAR" />
+			   <input type="reset" name="btn-cancelar" value="CANCELAR" /></p>
+		</form>
+
+		<hr/>
+		<p align="center">Desenvolvido por <a href="http://instagram.com/tiiagosegato" target="_blank">Tiago Segato</a> - 2020</p>
+		</font>
+	</body>
+</html>
