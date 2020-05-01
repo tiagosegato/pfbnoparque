@@ -7,3 +7,4 @@ Projeto usado como exemplo no curso de Desenvolvimento de Web Sites com HTML5, d
 - Já a pasta pfbnoparque-css contém os mesmos arquivos e códigos, porém sem os códigos de formatação visual em HTML5, pois tem como objetivo ser utilizada para a adição dos códigos de formatação visual por meio da linguagem CSS3.
 
 Os códigos de pfbnoparque-css servirão de base para os alunos que participarem do curso Desenvolvimento de Web Sites com HTML5 e CSS3, continuação do curso citado anteriormente, disponível em:
+https://www.youtube.com/playlist?list=PLfaT9CZbt-_Rin28JCbc6XQy1wOzMzMiZ
